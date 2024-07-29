@@ -92,6 +92,7 @@ function calculateTotalScore(objects) {
   return totalScore;
 }
 
+// Variables
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const strings = [
   "short string",
@@ -107,6 +108,7 @@ const students = [
 ];
 const objects = [{ score: 10 }, { score: 20 }, { score: 30 }];
 
+// Function Calls
 console.log("Task 1 \n");
 console.log(cubeNumbers(numbers));
 console.log("Task 2 \n");
